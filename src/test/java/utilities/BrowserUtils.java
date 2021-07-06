@@ -93,6 +93,6 @@ public class BrowserUtils {
 	public void clearTextOfAField(WebElement element) {
 		element.sendKeys(Keys.chord(Keys.COMMAND), "a");
 		element.sendKeys(Keys.DELETE);
-		//updated
+
 	}
 }
